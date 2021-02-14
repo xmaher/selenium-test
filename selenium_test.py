@@ -12,9 +12,3 @@ chromedriver.get(url)
 element = chromedriver.find_element_by_xpath(textbox_full_xpath)
 element.send_keys(search_phrase)
 chromedriver.find_element_by_xpath(button_full_xpath).click()
-
-<<<<<<< HEAD
-# adding a comment on the master branch
-=======
-# adding some comment to change file content
->>>>>>> new_feature
